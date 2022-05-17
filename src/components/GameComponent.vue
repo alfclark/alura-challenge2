@@ -23,7 +23,15 @@ import Popup from "./PopupComponent.vue";
 import Notification from "./NotificationComponent.vue";
 import onKeydown from "@/assets/onKeydown";
 
-const words = ["programming", "vuejs", "composition", "javascript"];
+const words = [
+  "programming",
+  "vuejs",
+  "composition",
+  "javascript",
+  "oracle",
+  "alura",
+  "github",
+];
 const randomWord = () => words[Math.floor(Math.random() * words.length)];
 
 export default {
